@@ -1,0 +1,22 @@
+/* .clock {
+    display: flex;
+    text-align: center;
+} */
+
+.api-response {
+    padding: 5%;
+}
+
+.clock-container {
+    height: 200px;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(16, 12, 12, 0.28), rgb(64, 62, 62));
+}
+
+.clock-container div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
