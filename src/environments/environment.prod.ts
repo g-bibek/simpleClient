@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiEndPoint: 'http://localhost:5011/'
+  apiEndPoint: 'https://simpleApi.gbibek.me/'
 };
