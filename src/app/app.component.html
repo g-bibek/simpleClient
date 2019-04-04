@@ -1,0 +1,16 @@
+<div class='clock-container'>
+<!-- 
+  <div>
+    <p>Please press the button below to fetch current date</p>
+    <button (click)="refreshDateTimeStamp()"> Get Current Date </button>
+  </div> -->
+
+
+  <div >
+    <span class="pull-right" *ngIf="apiDateTime"> Api: {{apiDateTime}}</span> <br/>
+    <span *ngIf="currentDate"> Current utc date: {{currentDate}}</span> <br/>
+    <span *ngIf="currentTime"> Current utc time: {{currentTime}}</span>
+    
+  </div>
+  
+</div>
