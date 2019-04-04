@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "8.9.0"
+
+branches:
+  only:
+    - master
+    - develop
+
+before_script:
+  - npm install -g @angular/cli
+
+script:
+  - ng build --prod --aot
+  - ng lint
